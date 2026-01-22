@@ -1,0 +1,44 @@
+    body {
+        text-align: center;
+        background: url('Green.jpg') repeat fixed;
+        background-size: cover;
+    }
+
+    
+
+    h1 {
+        position: fixed;
+        top: 15vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 3rem;
+        color: #ff4500;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        font-family: 'Arial Black', sans-serif;
+        margin: 0;
+    }
+
+    #board {
+        background-color: lightcyan;
+        border-bottom: 20px solid lightcoral;
+        position: fixed;
+        top: 25vh;
+        left: 25vw;
+        width: 50vw;
+        height: 50vh;
+    }
+
+    button {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 10px;
+        background-color: lightgreen;
+        color: darkgreen;
+        border: none;
+        border-radius: 8px;
+        position: fixed;
+        top: 80vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
